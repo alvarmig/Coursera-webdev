@@ -9,27 +9,11 @@ h1 {
   text-align: center;
 }
 
-p {
-  clear: both;
-  padding: 10px;
-}
-
-#p_title {
-  background-color: #d59898;
-  float: right;
-  width: 33%;
-  border: 1px solid black;
-  padding: 1px;
-  border-top: 0px;
-  border-right: 0px;
-  
-}
-
 .container-box {
   width: 100%;
   height: 100%;
   border: 1px solid black;
-  background-color: grey;
+  background-color: #cec8c8;
   font-family: Arial;
   color: black;
   overflow: hidden;
@@ -39,6 +23,31 @@ p {
   padding: 15px;
 }
 
+.p_title {
+  float: right;
+  width: 33%;
+  border: 1px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  text-align: center;
+}
+
+#t1{
+    background-color: #d67777;
+}
+
+#t2{
+    background-color: #62539e;
+}
+
+#t3{
+    background-color: #549e53;
+}
+
+p {
+  clear: both;
+  padding: 15px;
+}
 
 /* Simple Responsive Framework. */
 .row {
