@@ -90,8 +90,55 @@ body {
 }
 /* END HEADER*/
 
+/* Home Page */
+.container .jumbotron {
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+	height: 255px;
+	width: 100%;
+	margin-bottom: 15PX;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #CCCCCC;
+}
+
+#menu-tile {
+	background: url('../images/menu-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#specials-tile {
+	background: url('../images/specials-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+/* End Home Page */
+
 /************ Large devices only **********/
 @media (min-width: 1200px){
+	.jumbotron {
+		background: url('../images/jumbotron_1200.jpg') no-repeat;
+		height: 675px;
+	}
 
 }
 
@@ -105,11 +152,23 @@ body {
 		margin: 5px 5px 5px 0;
 	}
 	/* End Header */
+
+	/* Home Page*/
+	.container .jumbotron {
+		background: url('../images/jumbotron_992.jpg') no-repeat;
+		height: 558px;
+	}
+	/* End Home Page */
 }
 
 /************ Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px){
-
+	/* Home Page*/
+	.container .jumbotron {
+		background: url('../images/jumbotron_768.jpg') no-repeat;
+		height: 432px;
+	}
+	/* End Home Page */
 }
 
 /************ Extra small devices only **********/
@@ -133,9 +192,63 @@ body {
 	.navbar-brand p img { /* Star-K */
 		height: 20px;
 	}
+
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	#call-btn > a {
+		font-size: 1.5em;
+		display: block;
+		margin: 0 20px;
+		padding: 10px;
+		border: 2px solid #fff;
+		background-color: #f6b319;
+		color: #951c49;
+	}
+
+	#xs-deliver {
+		margin-top: 5px;
+		font-size: .7em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+	}
 	/*End Header */
+
+	/* Home Page */
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
+	}
+
+	#menu-tile, #specials-tile {
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+	/* End Home Page */
 }
 
+/************ Super Extra small devices only (e.g., iPhone 4)**********/
+@media (max-width: 479px) {
+	/* Header*/
+	.navbar-brand h1 {
+		padding-top: 5px;
+		font-size:  6vw;
+	}
+	/* End Header */
+
+	/* Home Page */
+	#menu-tile, #specials-tile {
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+	/* End Home Page */
+}
 
 
 
