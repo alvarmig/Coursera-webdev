@@ -1,5 +1,7 @@
 https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment2/Assignment-2.md#module-2-coding-assignment
 
+https://alvarmig.github.io/Coursera-webdev/Course-Lessons/week-2/mod2-solution3/
+
 Time to complete: 1-2 hours. It may take you less time than that if you've absorbed the material in this module well.
 
 Ask questions in Discussions if you get stuck! We are all learning, and going through getting stuck and then unstuck (even with someone's help) can be a very valuable learning experience!
