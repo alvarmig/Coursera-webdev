@@ -86,6 +86,38 @@ body {
 	box-shadow: 0 0 50px #3F0C1F;
 	border: 2px solid #3F0C1F;
 }
+#menu-tile, #specials-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px  solid #3F0C1F;
+	overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+	background: url('../images/menu-tile.jpg') no-repeat;
+	background-position: center;
+}
+#specials-tile {
+	background: url('../images/specials-tile.jpg') no-repeat;
+	background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -93,8 +125,6 @@ body {
 	.container .jumbotron {
 		background: url('../images/jumbotron_1200.jpg');
 		height: 675px;
-		box-shadow: 0 0 50px #3F0C1F;
-		border: 2px solid #3F0C1F;
 	}
 }
 
@@ -159,7 +189,6 @@ body {
 		color: #951c49;
 		overflow: hidden;
 	}
-
 	#xs-deliver {
 		margin-top: 5px;
 		font-size: .7em;
@@ -172,5 +201,26 @@ body {
 	.container .jumbotron{
 		margin-top: 30px; 
 		padding: 0;
+	}
+	#menu-tile, #specials-tile {
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+
+}
+
+/********** Super extra small devices only iPhone 4 **********/
+@media (max-width: 479px) {
+	/* Header */
+	.navbar-brand h1 { /* Restaurant name */
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+	/* End Header */
+
+	/* Home Page */
+	#menu-tile, #specials-tile {
+		width: 280px;
+		margin: 0 auto 15px;
 	}
 }
