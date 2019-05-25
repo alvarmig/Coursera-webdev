@@ -1,0 +1,60 @@
+/* https://bootstrapdocs.com/v3.3.6/docs/components/#navbar-default */
+/*https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md */
+
+/** HEADER **/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+/* Restaurant name */
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color:#557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+	font-size: 1.8em;
+}
+#collapsable-nav .divider {
+    overflow: hidden;
+    border: 1px solid black;
+}
+/** END HEADER **/
+
+/* Main Page */
+#page-title {
+	margin-top: 0px;
+}
+.dish-tile {
+	position: relative;
+	background-color: #cec8c8;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	margin: 0 auto 15px;
+	text-align: center;
+}
+.dish-tile span {
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+.dish-tile p {
+	text-align: left;
+}
+/* END Main Page */
