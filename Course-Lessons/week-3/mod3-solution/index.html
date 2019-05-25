@@ -4,9 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
     <title>Boostrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -15,9 +12,9 @@
   </head>
 <body>
 
-  <header>
+  <header id="main-title">
     <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
+      <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
 
@@ -27,7 +24,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><h1>Food, LCC</h1></a>
+          <a class="navbar-brand" href="index.html">
+            <h1>Food, LCC</h1>
+          </a>
         </div>
 
         <!-- Navigation Buttons -->
@@ -35,15 +34,15 @@
           <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li role="separator" class="divider visible-xs"></li>
             <li class="visible-xs">
-              <a href="">Chicken</a>
+              <a href="#chicken-title">Chicken</a>
             </li>
             <li role="separator" class="divider visible-xs"></li>
             <li class="visible-xs">
-              <a href="">Beef</a>
+              <a href="#beef-title">Beef</a>
             </li>
             <li role="separator" class="divider visible-xs"></li>
             <li class="visible-xs">
-              <a href="">Sushi</a>
+              <a href="#sushi-title">Sushi</a>
             </li>
             <li role="separator" class="divider visible-xs"></li>
           </ul><!-- #nav-list -->
@@ -53,22 +52,58 @@
   </header>
 
   <!--Main Container -->
-  <div id="main-container" class="container">
+  <div id="main-container" class="container-fluid">
     <h2 id="page-title" class="text-center">Our Menu</h2>
 
     <section class="row">
       <div class="col-md-4 col-sm-6 col-xs-12"> 
-        <div class="dish-tile"><span>Chicken</span>
-          <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p></div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="dish-tile"><span>Beef</span>
-          <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p></div>
+        <div class="dish-tile">
+          <div><h3 id="chicken-title">Chicken</h3></div>
+          <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis. Cras quis fermentum sapien. Nullam lobortis tristique massa eu volutpat. Aenean lobortis neque nec nisi blandit, sit amet facilisis quam vestibulum. Phasellus varius non tellus eu condimentum. Ut varius eget tellus quis placerat. Duis id porta justo. Vestibulum imperdiet lectus id luctus bibendum.
+          <br><br>
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc eu est finibus, placerat sem sit amet, bibendum orci. Donec luctus dignissim aliquet. Maecenas eu pretium dui, vel dictum mi. Nulla nec pretium nisi. Maecenas eleifend ut dui vitae malesuada. Vivamus volutpat vulputate sem, eget rutrum dui ultrices lobortis. Maecenas sollicitudin sodales quam, ut pellentesque dolor porttitor at. Sed pellentesque erat eros, quis efficitur ipsum ullamcorper eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum nec cursus magna, et mollis dui. In viverra varius dapibus. Morbi interdum, orci ac vestibulum faucibus, est dui volutpat lectus, non lobortis purus eros vitae lorem.
+          <br><br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis. Cras quis fermentum sapien. Nullam lobortis tristique massa eu volutpat. Aenean lobortis neque nec nisi blandit, sit amet facilisis quam vestibulum. Phasellus varius non tellus eu condimentum. Ut varius eget tellus quis placerat. Duis id porta justo. Vestibulum imperdiet lectus id luctus bibendum.
+          <br><br>
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc eu est finibus, placerat sem sit amet, bibendum orci. Donec luctus dignissim aliquet. Maecenas eu pretium dui, vel dictum mi. Nulla nec pretium nisi. Maecenas eleifend ut dui vitae malesuada. Vivamus volutpat vulputate sem, eget rutrum dui ultrices lobortis. Maecenas sollicitudin sodales quam, ut pellentesque dolor porttitor at. Sed pellentesque erat eros, quis efficitur ipsum ullamcorper eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum nec cursus magna, et mollis dui. In viverra varius dapibus. Morbi interdum, orci ac vestibulum faucibus, est dui volutpat lectus, non lobortis purus eros vitae lorem.</p>
+
+          <div id="chicken-section">(End of Chicken section)
+            <a href="#main-title"> Back To Top</a>
+          </div>
+        </div>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="dish-tile">
-          <span>Sushi</span>
-          <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p></div>
+          <div><h3 id="beef-title">Beef</h3></div>
+          <p class="menu-item-details">Sed aliquet congue tellus ut aliquet. Suspendisse ac eleifend diam. Vestibulum non tincidunt turpis, et sagittis dolor. Donec rhoncus aliquet arcu, sit amet suscipit lectus laoreet eget. Cras dapibus nibh quam, eget fermentum urna sodales a. Nam vel mattis lorem. Nulla ullamcorper justo sapien, quis aliquet nisl tincidunt eu.
+          <br><br>
+          Integer rhoncus ultrices ante a porttitor. Pellentesque volutpat tristique dolor pharetra iaculis. Proin posuere dolor ac rutrum interdum. Cras hendrerit vitae sapien ac luctus. Sed eros est, interdum sit amet lorem vel, finibus luctus nulla. Quisque tempus fringilla maximus. Mauris mollis convallis metus, non sollicitudin dui elementum non. Aenean eget malesuada est. Integer massa leo, lobortis sit amet nisi eu, tempor fringilla orci. Nunc venenatis ac lorem id efficitur. Cras faucibus sem vel nisi pellentesque, in porttitor ipsum consectetur. Sed eu sapien vitae ante tempus porta non vel tellus. Vestibulum accumsan orci et felis luctus rutrum. Phasellus convallis risus eu odio finibus efficitur. Suspendisse nunc libero, volutpat sit amet est sed, dignissim porta mauris. Suspendisse placerat, eros lobortis pretium vulputate, eros nisl mollis nunc, in vulputate massa sapien rhoncus enim.
+
+          <br><br>
+          Integer rhoncus ultrices ante a porttitor. Pellentesque volutpat tristique dolor pharetra iaculis. Proin posuere dolor ac rutrum interdum. Cras hendrerit vitae sapien ac luctus. Sed eros est, interdum sit amet lorem vel, finibus luctus nulla. Quisque tempus fringilla maximus. Mauris mollis convallis metus, non sollicitudin dui elementum non. Aenean eget malesuada est. Integer massa leo, lobortis sit amet nisi eu, tempor fringilla orci. Nunc venenatis ac lorem id efficitur. Cras faucibus sem vel nisi pellentesque, in porttitor ipsum consectetur. Sed eu sapien vitae ante tempus porta non vel tellus. Vestibulum accumsan orci et felis luctus rutrum. Phasellus convallis risus eu odio finibus efficitur. Suspendisse nunc libero, volutpat sit amet est sed, dignissim porta mauris. Suspendisse placerat, eros lobortis pretium vulputate, eros nisl mollis nunc, in vulputate massa sapien rhoncus enim.</p>
+
+          <div id="beef-section">(End of Beef section)
+            <a href="#top"> Back To Top</a>
+          </div>
+        </div>
+      </div>
+      <!-- Add after every 2nd menu-item-tile -->
+      <div class="clearfix visible-sm-block visible-xs-block"></div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="dish-tile">
+          <div><h3 id="sushi-title">Sushi</h3></div>
+          <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Suspendisse potenti. Proin malesuada ornare tellus vel interdum. Maecenas egestas arcu vel neque ullamcorper, quis sodales ipsum molestie. Quisque ultrices lorem libero, vel rutrum nisl mollis at. Quisque vitae est et ante congue malesuada. Ut auctor ipsum et rutrum mattis. Nullam sit amet metus facilisis, varius metus non, placerat ante. Suspendisse odio dui, consequat ac dignissim nec, vehicula at nisl. Integer ultrices nunc odio, at faucibus risus tincidunt id.
+          <br><br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Suspendisse potenti. Proin malesuada ornare tellus vel interdum. Maecenas egestas arcu vel neque ullamcorper, quis sodales ipsum molestie. Quisque ultrices lorem libero, vel rutrum nisl mollis at. Quisque vitae est et ante congue malesuada. Ut auctor ipsum et rutrum mattis. Nullam sit amet metus facilisis, varius metus non, placerat ante. Suspendisse odio dui, consequat ac dignissim nec, vehicula at nisl. Integer ultrices nunc odio, at faucibus risus tincidunt id.
+          <br><br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Suspendisse potenti. Proin malesuada ornare tellus vel interdum. Maecenas egestas arcu vel neque ullamcorper, quis sodales ipsum molestie. Quisque ultrices lorem libero, vel rutrum nisl mollis at. Quisque vitae est et ante congue malesuada. Ut auctor ipsum et rutrum mattis. Nullam sit amet metus facilisis, varius metus non, placerat ante. Suspendisse odio dui, consequat ac dignissim nec, vehicula at nisl. Integer ultrices nunc odio, at faucibus risus tincidunt id.
+          </p>
+
+          <div id="sushi-section">(End of Sushi section)
+            <a href="#top"> Back To Top</a>
+          </div>
+        </div>
       </div>
     </section>
   </div>

@@ -32,6 +32,9 @@
 	text-align: center;
 	font-size: 1.8em;
 }
+#nav-list a:hover {
+	background: #E7E7E7;
+}
 #collapsable-nav .divider {
     overflow: hidden;
     border: 1px solid black;
@@ -40,21 +43,44 @@
 
 /* Main Page */
 #page-title {
-	margin-top: 0px;
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-family: 'Lora', serif;
+
 }
 .dish-tile {
-	position: relative;
 	background-color: #cec8c8;
-	border: 2px solid #3F0C1F;
+	border: 1px solid #3F0C1F;
 	overflow: hidden;
 	margin: 0 auto 15px;
-	text-align: center;
 }
-.dish-tile span {
-	font-size: 1.2em;
+.dish-tile div h3 {
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-top: 20px;
+	font-family: 'Lora', serif;
+	color:#557c3e;
+	font-size: 1.3em;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 .dish-tile p {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
 	text-align: left;
 }
+.dish-tile > div {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+#chicken-section, #beef-section, #sushi-section {
+	text-align: right;
+	padding-right:  15px;
+	margin-bottom: 10px;
+}
+
 /* END Main Page */
