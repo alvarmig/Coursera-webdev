@@ -1,0 +1,486 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-bottom\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"visi",
+				"visible-sm-block"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"fotn",
+				"font-size\tproperty"
+			],
+			[
+				"col-",
+				"col-sm-4"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"BACK",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"menu",
+				"menu-tile"
+			],
+			[
+				"Le",
+				"letter-spacing\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"fot",
+				"font-size\tproperty"
+			],
+			[
+				"vi",
+				"visible-xs"
+			],
+			[
+				"paddi",
+				"padding-top\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"margin-",
+				"margin-left\tproperty"
+			],
+			[
+				"paddig",
+				"padding-right\tproperty"
+			],
+			[
+				"col",
+				"col-md-2"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"paddin",
+				"padding-bottom\tproperty"
+			],
+			[
+				"tran",
+				"transform\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"gly",
+				"glyphicon"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"min-",
+				"min-width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ori",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 121.0,
+		"history":
+		[
+			"node app;",
+			"node app",
+			"node app.js",
+			"node app",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-4",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-4/Lecture42-data types"
+	],
+	"file_history":
+	[
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-4/Lecture41-variables-functions-scope/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-4/Lecture41-variables-functions-scope/js/script.js",
+		"/C/Users/Miguel",
+		"/C/Users/Miguel Alvarado/Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-4/Lecture40",
+		"/C/Users/Miguel Alvarado/Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-4",
+		"/C/Users/Miguel Alvarado/AppData/Roaming/Sublime Text 3/Packages/User/web-development.sublime-project",
+		"/C/Users/Miguel Alvarado/AppData/Roaming/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/C/Users/Miguel Alvarado/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/single-category.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture31-Button for Collapsible Menu/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture31-Button for Collapsible Menu/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/mod3-solution/js/bootstrap.js",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/mod3-solution/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/mod3-solution/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture30-Basics Navbar Header/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture30-Basics Navbar Header/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Proyect Setup/Lecture29/after/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/menu-categories.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture38-Single Menu Category/site/single-category.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture38-Single Menu Category/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture38/after/single-category.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture38-Single Menu Category/site/menu-categories.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture37-Menu Categories/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture37-Menu Categories/site/menu-categories.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture37-Menu Categories/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Homepage and Footer/Lecture36-Footer/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Homepage and Footer/Lecture36-Footer/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture36/after/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Homepage and Footer/Lecture34-Navigation Tiles/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Homepage and Footer/Lecture34-Navigation Tiles/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture35/after/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture35/after/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Homepage and Footer/Lecture34-Coding Jumbotron/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Homepage and Footer/Lecture34-Coding Jumbotron/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Homepage and Footer/Lecture34-Coding Jumbotron/site/images/jumbotron_992.jpg",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture34/before/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture34/before/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture33-Fixing Nav Bar Layout/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture33-Fixing Nav Bar Layout/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture33/after/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture33/before/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture33/before/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture32-Nav Menu Buttons/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture32-Nav Menu Buttons/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture32/before/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture32/after/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture31-Button for Collapsisible Menu/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture31-Button for Collapsisible Menu/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture31/after/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture30/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture30/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture30/after/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Proyect Setup/Lecture29/after/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/mod2-solution3/README.txt",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/mod2-solution3/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/mod2-solution3/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/mod2-solution/style.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/mod2-solution/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture24 - Responsive Designe/responsive-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/mod2-solution2/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture16/style-placement.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture25/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture24 -Responsive Designe/responsive-before.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture24 -Responsive Designe/responsive-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture23 - Media Queries/media-queries-before.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture23 - Media Queries/media-queries-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture17 - Inheritance/inheritance.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture17 - Inheritance/external.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture22 - Positioning/positioning-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture21 - Floating Elements/two-column-before.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture21 - Floating Elements/two-column-after - v2.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture21 - Floating Elements/two-column-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture21 - Floating Elements/floating-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture20/background-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture19/box-model-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture19/box-model-before.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture19/box-model-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture19/box-model-before.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture18/font-size-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture17/inheritance.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture16/style.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture14/element-with-class-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/simple-selector-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture13/simple-selectors-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/css-syntax.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture12/css-syntax.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-1/Lecture08/html-entities-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-1/Lecture07/ordered-lists.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-1/Lecture07/unordered-lists.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture07/unordered-lists-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture07/ordered-lists-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-1/Lecture06/headings.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-1/Lecture06/semantic-elements.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture06/semantic-elements.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture06/headings.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture05/div-and-span.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-1/Lecture05/div-and-span.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-1/Lecture04/doc-structure.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture04/doc-structure-before.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture01/structure-only-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-1/Lecture01/structure-only.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Courser-Lessons/week-1/Lecture01/structure-only.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Courser-Lessons/week1/structure-only.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/site/menu-categories.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/site/single-category.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/shell scripting/intro.sh",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/progra-101/section-3/app.js",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture38/after/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture38/after/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/site/images/jumbotron_768.jpg",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/site/images/jumbotron_992.jpg",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture33/after/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/site/js/script.js",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture32/after/css/styles.css",
+		"/C/Users/Miguel Alvarado/AppData/Roaming/Sublime Text 3/Packages/Origami/Default (Windows).sublime-keymap",
+		"/C/Users/Miguel Alvarado/AppData/Roaming/Sublime Text 3/Packages/Compare Side-By-Side/SBSCompare.sublime-settings",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture29/before/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture29/after/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture27/README.txt",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/mod2-solution2/style.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/mod2-solution2/test.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture24/responsive-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture20/background-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture21/floating-after.html"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "web-dev-js.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
