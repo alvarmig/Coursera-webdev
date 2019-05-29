@@ -45,7 +45,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
       homeHtml, 
       function (responseText) {
         document.querySelector("main-content")
-        .innerHTML = responseText;
+          .innerHTML = responseText;
     },
     false);
   });
