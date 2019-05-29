@@ -59,7 +59,7 @@ var insertProperty = function (string, propName, propValue) {
 var switchMenuToActive = function () {
   // Remove 'active' from home button
   var classes = document.querySelector("#navHomeButton").className;
-  classes = classes.replace(new RegExp("active", "g"), "");
+  classes = classes.replace(new RegExp("active", "g"),"");
   document.querySelector("#navHomeButton").className = classes;
 
   // Add 'active' to menu button if not already there
@@ -114,7 +114,7 @@ function buildAndShowCategoriesHTML (categories) {
       $ajaxUtils.sendGetRequest(
         categoryHtml,
         function (categoryHtml) {
-          // Switch CSS class active to menu button
+          // Switch CSS class active to menu button 
           switchMenuToActive();
 
           var categoriesViewHtml =
