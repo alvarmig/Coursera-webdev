@@ -11,3 +11,5 @@ johnGreeter.sayHi();*/
 
 yaakovGreeter.sayHello3();
 johnGreeter.sayHi2();
+
+console.log(literalCircle.getArea());

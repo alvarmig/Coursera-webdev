@@ -9,6 +9,8 @@ console.log(company);
 console.log("Company CEO name is: " + company.ceo.firstName);
 
 console.log(company["name"]);
+console.log(company["ceo"]);
+console.log(company.ceo["color"]);
 
 company["stock of company"] = 110;
 console.log("Stock price is " + company["stock of company"]);
