@@ -4,8 +4,7 @@
 
 document.addEventListener("DOMContentLoaded",
   function (event) {
-
-    function sayHello () {
+    function sayHello (event) {
 
       this.textContent = "Said it";
 
@@ -33,7 +32,6 @@ document.addEventListener("DOMContentLoaded",
             .querySelector("h1")
             .textContent = title;
       }
-
     }
     //Unobstrusive event binding
     document.querySelector("button")
@@ -41,6 +39,8 @@ document.addEventListener("DOMContentLoaded",
 
     /*document.querySelector("button")
         .onclick = sayHello;*/
-  }
-);
+});
+
+
+
 

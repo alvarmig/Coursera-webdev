@@ -59,6 +59,7 @@ var insertProperty = function (string, propName, propValue) {
 var switchMenuToActive = function () {
   // Remove 'active' from home button
   var classes = document.querySelector("#navHomeButton").className;
+  console.log(classes);
   classes = classes.replace(new RegExp("active", "g"),"");
   document.querySelector("#navHomeButton").className = classes;
 

@@ -15,8 +15,6 @@ document.addEventListener("DOMContentLoaded",
               document.querySelector("#content")
                 .innerHTML = "<h2>Hello " + name + "!</h2>";
             });
-
-        
       });
   }
 );

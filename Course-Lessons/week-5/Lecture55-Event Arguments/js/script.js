@@ -5,7 +5,7 @@
 document.addEventListener("DOMContentLoaded",
   function (event) {
 
-    function sayHello () {
+    function sayHello (event) {
 
       this.textContent = "Said it";
 
