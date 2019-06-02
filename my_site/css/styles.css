@@ -140,15 +140,25 @@ nav ul li {
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
 	#title-logo {
 		margin-left: 30px;
 	}
-
+	.services {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+}
 
 /********** Super extra small devices only iPhone 4 **********/
 @media (max-width: 479px) {
 	.container-services  .item-details {
 		height: 300px;
 	}
+
+	.services {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
 }
