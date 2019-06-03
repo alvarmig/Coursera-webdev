@@ -25,7 +25,7 @@ header {
 }
 div.container-title {
 	color: #fff;
-	margin: 18vh 0 18vh 0;
+	margin: 30vh 0 18vh 0;
 }
 .title > h1 {
 	font-size: 60px;
@@ -78,8 +78,8 @@ nav ul li {
 #main-container h3 {
 	font-size: 55px;
 	font-weight: normal;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 45px;
+	margin-bottom: 45px;
 }
 .container-services h4 {
 	font-size: 30px;
@@ -119,17 +119,86 @@ nav ul li {
 	left: 0;
 	bottom: 0;
 }
+/***********Carousel ***********/
+.section-works img {
+	transform: scale(1);
+	transition: .3s;
+}
+.section-works img:hover {
+	transform: scale(1.1);
+	transition: .3s;
+}
+.section-works p {
+	text-align: center;
+	color: black;
+}
+.owl-nav button {
+	color: #5cb8ff !important;
+	margin: 0 46px !important;
+	font-size: 59px !important;
+}
+.owl-dots {
+	display: none;
+}
+.owl-nav button:hover {
+	background: none !important;
+	border: none !important;
+}
+.owl-nav button:focus {
+	outline-style: none;
+}
 
+/******** END Carousel ******************/
+
+/********** Why Work With Me Section  *************/
+.container-why img {
+
+}
+.container-why span {
+	font-size: 19px;
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.container-why p {
+	line-height: 31px;
+}
+/********** END Why Work With Me Section  *************/
+
+/********** Worpress Section  *************/
+.wordpress {
+	margin-bottom: 30px;
+}
+.container-wordpress {
+	margin-top: 20px;
+}
+.wordpress-details ul li {
+	line-height: 35px;
+}
+
+
+
+/********** END Worpress Section  *************/
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
+	.vertical-align {
+		display: flex;
+	    align-items: center;
+	}
 }
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 	
 	.container-services  .item-details {
 		height: 360px;
+	}
+
+	.vertical-align {
+		display: flex;
+	    align-items: center;
 	}
 
 }
@@ -141,24 +210,41 @@ nav ul li {
 
 /********** Extra small devices only **********/
 @media (min-width: 480px) and (max-width: 767px) {
+	#main-container h3 {
+		font-size: 45px;
+	}
 	#title-logo {
 		margin-left: 30px;
 	}
 	.services {
-		margin-left: 25px;
-		margin-right: 25px;
+		margin-left: 35px;
+		margin-right: 35px;
 	}
+	.wordpress-img {
+		margin-bottom: 40px;
+	}
+
 }
 
 /********** Super extra small devices only iPhone 4 **********/
 @media (max-width: 479px) {
+	#main-container h3 {
+		margin-top: 45px;
+		font-size: 30px;
+	}
+	#title-logo {
+		margin-left: 30px;
+	}
 	.container-services  .item-details {
 		height: 300px;
 	}
 
 	.services {
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.wordpress-img {
+		margin-bottom: 40px;
 	}
 
 }

@@ -1,3 +1,4 @@
+/** https://owlcarousel2.github.io/OwlCarousel2/ **/
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
