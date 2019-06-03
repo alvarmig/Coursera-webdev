@@ -210,6 +210,9 @@ nav ul li {
 
 /********** Extra small devices only **********/
 @media (min-width: 480px) and (max-width: 767px) {
+	div.container-title {
+		margin: 8vh 0 8vh 0;
+	}
 	#main-container h3 {
 		font-size: 45px;
 	}
@@ -228,6 +231,9 @@ nav ul li {
 
 /********** Super extra small devices only iPhone 4 **********/
 @media (max-width: 479px) {
+	div.container-title {
+		margin: 8vh 0 8vh 0;
+	}
 	#main-container h3 {
 		margin-top: 45px;
 		font-size: 30px;
