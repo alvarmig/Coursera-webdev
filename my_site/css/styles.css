@@ -169,7 +169,7 @@ nav ul li {
 
 /********** Worpress Section  *************/
 .wordpress {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .container-wordpress {
 	margin-top: 20px;
@@ -177,10 +177,30 @@ nav ul li {
 .wordpress-details ul li {
 	line-height: 35px;
 }
-
-
-
+.wordpress-details ul {
+	padding-left: 0;
+}
+h3#wordpress-title {
+	margin-bottom: 10px;
+}
+.wordpress-details {
+	text-align: center;
+	list-style-position: inside;
+}
 /********** END Worpress Section  *************/
+
+/********** Hosting Sectionn  *************/
+.hosting-details ul {
+	list-style: none;
+}
+.hosting-details ul img{
+	margin-right: 10px;
+}
+.list-details {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/********** END Hosting Sectionn   *************/
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -223,9 +243,10 @@ nav ul li {
 		margin-left: 35px;
 		margin-right: 35px;
 	}
-	.wordpress-img {
-		margin-bottom: 40px;
+	#wordpress-img {
+		margin-bottom: 55px;
 	}
+
 
 }
 
@@ -244,13 +265,14 @@ nav ul li {
 	.container-services  .item-details {
 		height: 300px;
 	}
-
 	.services {
 		margin-left: 5px;
 		margin-right: 5px;
 	}
-	.wordpress-img {
-		margin-bottom: 40px;
+	#wordpress-img {
+		margin-bottom: 55px;
 	}
+
+
 
 }
