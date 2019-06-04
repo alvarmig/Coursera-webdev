@@ -15,13 +15,13 @@
 </head>
 
 <body>
-	<header>
+	<header><!-- HEADER -->
 		<nav id=header-nav class="navbar navbar-default">
 			<div id="title-container" class="container">
 				<div class="navbar-header">
 					<span id="title-logo">Miguel Alvarado</span>
 		          	<!--Collapsible Menu -->
-		          	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+		          	<button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
 			            <span class="sr-only">Toggle navigation</span>
 			            <span class="icon-bar"></span>
 			            <span class="icon-bar"></span>
@@ -54,7 +54,7 @@
 		</div>	 
 	</header>
 
-	<main id="main-container" class="container">
+	<main id="main-container" class="container-fluid">
 		<h3 id="page-title" class="text-center">About Me</h3>
 		<section class="row">
 			<div class="col-md-6 col-xs-12">
@@ -148,7 +148,7 @@
       		<div class="clearfix  visible-lg-block visible-md-block"></div>
 		</section> 
 
-		<section class="row services">
+		<section class="row myworks">
 			<h3 id="page-title" class="text-center">My Works</h3>
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="container-works owl-carousel owl-theme">
@@ -171,7 +171,7 @@
 			</div>
 		</section>
 
-		<section class="row">
+		<section class="row work-with-me" >
 			<h3 id="page-title" class="text-center">Why Work with Me?</h3>
 			<div class="col-md-4 col-sm-12 col-xs-12">
 				<div class="container-why text-center">
@@ -199,7 +199,7 @@
 		<section class="row">
 			<div class="text-center wordpress">
 				<h3 id="wordpress-title">Wordpress. The Best</h3>
-				<span>Wordpress is the best platform to bould a website.</span>
+				<span>Wordpress is the best platform to build a website.</span>
 			</div>
 			<div id="container-wordpress" class="vertical-align">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -230,6 +230,8 @@
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xxs-6 list-details">
 				<div class="hosting-details">
+					<h4>Do I need to have the best hosting of the world?</h4>
+					<p>For every website you will need the best hosting. For only $60 per year Siteground offers:</p>
 					<ul>
 						<li><img src="images/check.png" alt="check" />Free Domain</li>
 						<li><img src="images/check.png" alt="check" />24/7 Support</li>
@@ -242,14 +244,93 @@
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xxs-6 list-details">
 				<div class="hosting-details">
+					<h4>What happen if I have a poor hosting service?</h4>
+					<p>Not always the cheaper option is the best optio. A bad hosting service can lead to:</p>
 					<ul>
-						<li><img src="images/danger.png">Free Domain</li>
-						<li><img src="images/danger.png">24/7 Support</li>
-						<li><img src="images/danger.png">Unlimited e-mail accounts</li>
-						<li><img src="images/danger.png">Daily Backups</li>
-						<li><img src="images/danger.png">10 GB of space</li>
-						<li><img src="images/danger.png">SSD storage</li>
+						<li><img src="images/danger.png" />Slow loading of the website.</li>
+						<li><img src="images/danger.png" />Server Error 500 </li>
+						<li><img src="images/danger.png" />Bad SEO Ranking</li>
+						<li><img src="images/danger.png" />Insuficient Support</li>
+						<li><img src="images/danger.png" />Vulnerable against hackers</li>
+						<li><img src="images/danger.png" />No SSL Certificate Service</li>
 					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="hosting">
+			<div class="container">
+				<h3 id="hosting-title" class="text-center">Hosting. The most important!</h3>
+				<p class="info-details">El hosting es la pieza fundamental de un sitio web. Un buen servicio de hosting garantiza la seguridad y confianza que el usuario necesita en su sitio. Yo trabajo con Siteground, el mejor hosting Wordpress del mundo valorado por las mejores empresas del planeta.</p>
+
+				<div class="container-info">
+					<div class="info">
+						<ul>
+							<li class="big-title">Do I need to have the best hosting of the world?</li>
+							<li>For every website you will need the best hosting. For only $60 per year Siteground offers:</li>
+							<li class="icon"><img src="images/check.png" alt="check" />Free Domain</li>
+							<li class="icon"><img src="images/check.png" alt="check" />24/7 Support</li>
+							<li class="icon"><img src="images/check.png" alt="check" />Unlimited e-mail accounts</li>
+							<li class="icon"><img src="images/check.png" alt="check" />Daily Backups</li>
+							<li class="icon"><img src="images/check.png" alt="check" />10 GB of space</li>
+							<li class="icon"><img src="images/check.png" alt="check" />SSD storage</li>
+						</ul>
+					</div>
+					<div class="info">
+						<ul>
+							<li class="big-title">What happen if I have a poor hosting service?</li>
+							<li>Not always the cheaper option is the best optio. A bad hosting service can lead to:</li>
+							<li class="icon"><img src="images/danger.png" />Slow loading of the website.</li>
+							<li class="icon"><img src="images/danger.png" />Server Error 500 </li>
+							<li class="icon"><img src="images/danger.png" />Bad SEO Ranking</li>
+							<li class="icon"><img src="images/danger.png" />Insuficient Support</li>
+							<li class="icon"><img src="images/danger.png" />Vulnerable against hackers</li>
+							<li class="icon"><img src="images/danger.png" />No SSL Certificate Service</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>	
+
+		<section class="row section-row">
+			<div class="container blog">
+				<h3 class="text-center">Blog</h3>
+				<div class="col-md-6 col-sm-6 col-xs-12 ">
+					<div class="blog-single">
+						<div class="blog-img">
+							<div class="img-blog-div">
+								<img src="images/blog1.jpg"class="img-responsive visible-xs"/>
+							</div>
+							<div class="blog-box-content">
+								<h4>No Alcanza con tener una página web</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
+								<a href="">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="blog-single">
+						<div class="blog-img">
+							<div class="img-blog-div-2">
+								<img src="images/blog2.jpg" class="img-responsive visible-xs"/>
+							</div>
+							<div class="blog-box-content">
+								<h4>Que es el Remarketing y Como Utilizarlo?</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
+								<a href="">Read More</a>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="row cta text-center">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="container-fluid">
+					<h3 class="text-center">Don't wait for your website!</h3>
+					<a href="">Let's Chat</a>
 				</div>
 			</div>
 		</section>
