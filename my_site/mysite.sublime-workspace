@@ -4,6 +4,98 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"col-sm",
+				"col-sm-12"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"col-md",
+				"col-md-12"
+			],
+			[
+				"col",
+				"col-lg-12"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"margin-",
+				"margin-left\tproperty"
+			],
+			[
+				"TEX",
+				"text-center"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"visi",
+				"visible-sm"
+			],
+			[
+				"vis",
+				"visible-md-block"
+			],
+			[
+				"vi",
+				"visible-lg-block"
+			],
+			[
+				"back",
+				"background-position\tproperty"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"inle",
+				"inline-block\tdisplay"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"wo",
+				"wordpress"
+			],
+			[
+				"inlie",
+				"inline-block\tdisplay"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
 				"inser",
 				"insertProperty"
 			],
@@ -52,28 +144,12 @@
 				"padding-bottom\tproperty"
 			],
 			[
-				"mar",
-				"margin\tproperty"
-			],
-			[
-				"padd",
-				"padding\tproperty"
-			],
-			[
-				"visi",
-				"visible-sm-block"
-			],
-			[
 				"marg",
 				"margin-bottom\tproperty"
 			],
 			[
 				"s",
 				"solid"
-			],
-			[
-				"margin",
-				"margin-bottom\tproperty"
 			],
 			[
 				"fotn",
@@ -84,20 +160,8 @@
 				"col-sm-4"
 			],
 			[
-				"text",
-				"text-center"
-			],
-			[
 				"BACK",
 				"background-color\tproperty"
-			],
-			[
-				"back",
-				"background-color\tproperty"
-			],
-			[
-				"tex",
-				"text-align\tproperty"
 			],
 			[
 				"menu",
@@ -116,10 +180,6 @@
 				"font-size\tproperty"
 			],
 			[
-				"vi",
-				"visible-xs"
-			],
-			[
 				"paddi",
 				"padding-top\tproperty"
 			],
@@ -128,24 +188,12 @@
 				"padding\tproperty"
 			],
 			[
-				"di",
-				"div\tTag"
-			],
-			[
 				"h",
 				"html\thtml"
 			],
 			[
-				"margin-",
-				"margin-left\tproperty"
-			],
-			[
 				"paddig",
 				"padding-right\tproperty"
-			],
-			[
-				"col",
-				"col-md-2"
 			],
 			[
 				"text-a",
@@ -174,10 +222,6 @@
 			[
 				"gly",
 				"glyphicon"
-			],
-			[
-				"padding",
-				"padding-top\tproperty"
 			],
 			[
 				"hea",
@@ -211,6 +255,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 18192,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/script.js",
+			"settings":
+			{
+				"buffer_size": 1360,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 9436,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -265,10 +336,35 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/my_site"
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/my_site",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/my_site/css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/my_site/images",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/my_site/js"
 	],
 	"file_history":
 	[
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/Ajax in Website/Lecture59-Automatic Collapse/site/js/script.js",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/Ajax in Website/Lecture59-Automatic Collapse/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/my_site/js/script.js",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Homepage and Footer/Lecture35-Navigation Tiles/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Homepage and Footer/Lecture35-Navigation Tiles/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/single-category.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/mod3-solution/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/mod3-solution/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture18 - Styling text/styling-text-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/simple-selector-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/child-selector-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/element-with-class-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/css-syntax.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/descendant-selector-after.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/menu-categories.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture37-Menu Categories/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/site/css/styles.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/site/index.html",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/my_site/css/bootstrap-theme.css",
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/mod2-solution3/index.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/mod5-solution/snippets/home-snippet.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/mod5-solution/index.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/mod5-solution/js/script.js",
@@ -288,8 +384,6 @@
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/Ajax in Website/Lecture61-Dinamically Loading Menu Categories/site/snippets/menu-items-title.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/Ajax in Website/Lecture60-Dinamically Loading Home View Content/site/index.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/Ajax in Website/Lecture60-Dinamically Loading Home View Content/site/js/script.js",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/Ajax in Website/Lecture59-Automatic Collapse/site/index.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/Ajax in Website/Lecture59-Automatic Collapse/site/js/script.js",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/Lecture55-Event Arguments/js/script.js",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/Ajax in Website/Lecture59-Automatic Collapse/site/single-category.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-5/Ajax in Website/Lecture59-Automatic Collapse/site/menu-categories.html",
@@ -332,23 +426,16 @@
 		"/C/Users/Miguel Alvarado/AppData/Roaming/Sublime Text 3/Packages/User/web-development.sublime-project",
 		"/C/Users/Miguel Alvarado/AppData/Roaming/Sublime Text 3/Packages/User/bh_core.sublime-settings",
 		"/C/Users/Miguel Alvarado/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/single-category.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture31-Button for Collapsible Menu/site/css/styles.css",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture31-Button for Collapsible Menu/site/index.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/mod3-solution/js/bootstrap.js",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/mod3-solution/css/styles.css",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/mod3-solution/index.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture30-Basics Navbar Header/site/index.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Navigation Bar/Lecture30-Basics Navbar Header/site/css/styles.css",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Proyect Setup/Lecture29/after/css/styles.css",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/index.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/css/styles.css",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture39-Testing Mobile/site/menu-categories.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture38-Single Menu Category/site/single-category.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture38-Single Menu Category/site/css/styles.css",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture38/after/single-category.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture38-Single Menu Category/site/menu-categories.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture37-Menu Categories/site/index.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture37-Menu Categories/site/menu-categories.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Menu Pages/Lecture37-Menu Categories/site/css/styles.css",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Homepage and Footer/Lecture36-Footer/site/index.html",
@@ -380,27 +467,14 @@
 		"/C/Users/Miguel Alvarado/Documents/GitHub/fullstack-course4/examples/Lecture30/after/index.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-3/Proyect Setup/Lecture29/after/index.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/mod2-solution3/README.txt",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/mod2-solution3/index.html",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/mod2-solution3/styles.css",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/mod2-solution/style.css",
 		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/mod2-solution/index.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture24 - Responsive Designe/responsive-after.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/mod2-solution2/index.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture16/style-placement.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture25/index.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture24 -Responsive Designe/responsive-before.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture24 -Responsive Designe/responsive-after.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture23 - Media Queries/media-queries-before.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture23 - Media Queries/media-queries-after.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture17 - Inheritance/inheritance.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture17 - Inheritance/external.css",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture22 - Positioning/positioning-after.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture21 - Floating Elements/two-column-before.html",
-		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture21 - Floating Elements/two-column-after - v2.html"
+		"/C/Users/Miguel Alvarado/Documents/GitHub/Coursera-webdev/Course-Lessons/week-2/Lecture24 - Responsive Designe/responsive-after.html"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -414,6 +488,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"services",
+			"80",
+			"page-title",
+			"title"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -431,8 +509,585 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1293,
+										1299
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										948,
+										954
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1311,
+										1317
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										948,
+										954
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 100.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1353,
+								1353
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1353,
+										1354
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1036,
+										1037
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5962,
+								5962
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 30,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6511.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -521,7 +1176,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 298.0,
+	"side_bar_width": 484.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
