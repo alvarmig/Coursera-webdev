@@ -75,6 +75,7 @@ nav ul li {
 	text-shadow: 1px 1px 1px #222;
 	box-shadow: 5px 10px 15px #3F0C1F;
 }
+
 #main-container h3 {
 	font-size: 55px;
 	font-weight: normal;
@@ -330,11 +331,10 @@ h3#hosting-title {
 /********** END CTA   *************/
 .cta {
 	background: linear-gradient(rgba(84,93,220,.9),rgba(96,171,245,.9));
-	padding: 50px 0px;
 }
-.cta h3 {
+h3#cta-title  {
 	color: #fff;
-	font-size: 23px;
+	font-size: 40px;
 }
 .cta a {
 	display: inline-block;
@@ -345,8 +345,8 @@ h3#hosting-title {
 	text-align: center;
 	color: #fff;
 	padding: 14px 24px;
-	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 30px;
 	border-radius: 5px;
 	text-shadow: 1px 1px 1px #222;
 	transition: 0.3s;
@@ -356,6 +356,66 @@ h3#hosting-title {
 	transition: 0.3s;
 }
 /********** END CTA   *************/
+
+/********** Contact section  *************/
+.contact {
+	margin-bottom: 40px;
+}
+#message4 {
+	display: none;
+}
+textarea {
+	padding: 18px 0;
+	border: 0;
+	border-bottom: solid 1px #5cb8ff;
+	font-size: 17px;
+	color: #212121;
+	width: 100%;
+	margin-bottom: 30px;
+}
+input[type="text"], input[type="email"] {
+	padding: 18px 0;
+	border: 0;
+	border-bottom: solid 1px #5cb8ff;
+	font-size: 17px;
+	color: #212121;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+	outline-style: none;
+	border-bottom: solid 1px #0387d1;
+}
+
+input[type="submit"] {
+	display: inline-block;
+	text-decoration: none;
+	background:#5cb8ff;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 14px 24px;
+	margin-top: 25px;
+	border-radius: 5px;
+	text-shadow: 1px 1px 1px #222;
+	box-shadow: 0 12px 12px 0 rgba(41,45,172,.18);
+	transition: 0.3s;
+	border: none;
+}
+input[type="submit"]:hover {
+	background: #59a7ec;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.mail img {
+	margin-right: 10px;
+	font-size: 20px;
+}
+.contacto-info {
+
+}
+/********** END Contact section  *************/
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -368,8 +428,8 @@ h3#hosting-title {
 		margin-right: 80px;
 		padding-left: 100px;
 		padding-right: 100px;
-
 	}
+}
 		
 }
 /********** Medium devices only **********/
@@ -383,7 +443,6 @@ h3#hosting-title {
 		display: flex;
 	    align-items: center;
 	}
-
 }
 
 /********** Small devices only **********/
@@ -496,6 +555,9 @@ h3#hosting-title {
 		background: none;
 		height: auto;
 	}
+	.col-xxs-12 {
+		width: 100%;
+	}
 
 }
 @media (min-width: 320px) and (max-width: 374px) {
@@ -516,6 +578,9 @@ h3#hosting-title {
 	.blog-box-content p {
 		font-size: .8em;
 	}
+	.col-xxs-12 {
+		width: 100%;
+	}
 }
 
 @media (max-width: 319px) {
@@ -535,6 +600,9 @@ h3#hosting-title {
 	}	
 	.blog-box-content p {
 		font-size: .8em;
+	}
+	.col-xxs-12 {
+		width: 100%;
 	}
 
 }
