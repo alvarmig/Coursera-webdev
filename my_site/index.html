@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
+		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
@@ -19,9 +19,10 @@
 <body>
 	<header><!-- HEADER -->
 		<nav id=header-nav class="navbar navbar-default">
+			
 			<div id="title-container" class="container">
-				<div class="navbar-header">
-					<span id="title-logo">Miguel Alvarado</span>
+				<div  class="navbar-header">
+					<a  id="title-logo" href="#top"> Miguel Alvarado</a>
 		          	<!--Collapsible Menu -->
 		          	<button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
 			            <span class="sr-only">Toggle navigation</span>
@@ -34,15 +35,16 @@
 				<!-- Navigation Buttons -->
 				<div id="collapsable-nav" class="collapse navbar-collapse">
 					<ul id="nav-list" class="nav navbar-nav navbar-right">
-						<li>About Me</li>
-						<li>Services</li>
-						<li>My Jobs</li>
-						<li>Why work with me?</li>
-						<li>LinkedIn</li>
-						<li>Contact</li>
+						<li><a href="#about">About Me</a></li>
+						<li><a href="#services-section">Services</a></li>
+						<li><a href="#my-works">My Jobs</a></li>
+						<li><a href="#with-me">Why work with me?</a></li>
+						<li><a href="#blog-section">Blog</a></li>
+						<li><a href="#contact-section">Contact</a></li>
 					</ul><!-- #nav-list -->
 				</div><!-- .collapse .navbar-collapse -->
 			</div><!-- .container -->	
+		
 		</nav><!-- #header-nav -->
 
 		<div class="container">
@@ -50,28 +52,29 @@
 				<div class="title text-center">
 					<h1>Miguel Alvarado</h1>
 					<h2>Web Development and JavaScript</h2>
-					<a href="">View my Work</a>
+					<a href="#my-works">View my Work</a>
 				</div>
 			</div>
 		</div>	 
 	</header>
 
-	<main id="main-container" class="container-fluid">	
-		<section class="row">
-			<div class="container">
-				<h3 id="page-title" class="text-center">About Me</h3>
+	<main id="main-container" class="container-fluid">
+		<a id="whatsapp" href="https://api.whatsapp.com/send?phone=5213331912993" target="_blank"><img src="images/whatsapp.png" alt=""/></a>
+		<section class="container">
+			<div class="row">
+				<h3 id="about" class="text-center">About Me</h3>
 				<div class="col-md-6 col-xs-12">
-					<div class="about-img">
+					<div class="about-img wow bounceInLeft" data-wow-duration="2.5s">
 						<!--<img src="../images/about.png">-->
 					</div>
 				</div>
 				<div class="col-md-6 col-xs-12">
-					<div class="about-text text-center">
+					<div class="about-text text-center wow bounceInRight" data-wow-duration="2.5s">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at condimentum ex. Nam et condimentum lacus. Donec in feugiat nisi, ut commodo purus. Quisque tristique ultrices ornare. Etiam placerat varius quam ut mattis. Cras porttitor nibh nec mauris convallis luctus. Praesent feugiat quis lorem quis tempus. Nulla viverra massa vitae erat tempus, sit amet pharetra metus porta. Sed condimentum ultrices auctor. Aliquam vitae ipsum euismod augue tempus egestas.</p>
 
 						<p>Aliquam ut ornare eros. Etiam malesuada ullamcorper ultricies. Sed vel sem ullamcorper, feugiat ligula vel, congue nibh. Maecenas eleifend viverra lorem, vel convallis dolor viverra ut. Phasellus congue magna quam, sit amet aliquet felis mattis in. Morbi vel consectetur lorem. Sed lobortis sapien non commodo pretium.</p>
 
-						<p>Curabitur eros ex, scelerisque at dolor fringilla, vestibulum eleifend orci. Phasellus porta nulla nec urna dapibus tincidunt. Proin pulvinar, leo vel interdum lobortis, libero erat consequat enim, et egestas erat augue eget tellus. Curabitur et aliquam nulla. Sed et erat quam. Duis et odio volutpat, condimentum dolor a, fringilla dui. Suspendisse egestas dictum purus, a condimentum nibh vulputate ac. Donec semper sodales mauris a molestie. Nullam tincidunt turpis nec egestas rhoncus. </p>
+						<p>Curabitur eros ex, scelerisque at dolor fringilla, vestibulum eleifend orci. Phasellus porta nulla nec urna dapibus tincidunt. Proin pulvinar, leo vel interdum lobortis, libero erat consequat enim, et egestas erat augue eget tellus.</p>
 
 						<a href="">View my Work</a>
 					</div>
@@ -80,83 +83,83 @@
 		</section> 
 
 		
-		<section class="row services">
-			<div class="container">
-			<h3 id="page-title" class="text-center">Services</h3>
-			<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
-				<div class="container-services">
-					<div class="section-div-even">
-						<div><h4>Web Design</h4></div>
-					  	<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
-					  	<div class="icon"><img src="images/monitor.png" class="icon" /></div>
-					  	<img src="images/waves.png" class="waves" alt="waves" />
+		<section  class=" container services">
+			<div class="row">
+				<h3 id="services-section" class="text-center">Services</h3>
+				<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
+					<div class="container-services wow fadeInDown" data-wow-delay="0.5s">
+						<div class="section-div-even">
+							<div><h4>Web Design</h4></div>
+						  	<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
+						  	<div class="icon"><img src="images/monitor.png" class="icon" /></div>
+						  	<img src="images/waves.png" class="waves" alt="waves" />
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
-				<div class="container-services">
-					<div class="section-div-odd">
-						<div><h4>Responsive Design</h4></div>
-						<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
-						<div class="icon"><img src="images/phone.png" class="icon" /></div>
-					  	<img src="images/waves.png" class="waves" alt="waves" />
+				<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
+					<div class="container-services wow fadeInDown" data-wow-delay="1s">
+						<div class="section-div-odd">
+							<div><h4>Responsive Design</h4></div>
+							<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
+							<div class="icon"><img src="images/phone.png" class="icon" /></div>
+						  	<img src="images/waves.png" class="waves" alt="waves" />
+						</div>
 					</div>
 				</div>
-			</div>
-	        <!-- Add after every 2rd item-tile -->
-      		<div class="clearfix  visible-sm-block"></div>
-			<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
-				<div class="container-services">
-					<div class="section-div-even">
-						<div><h4>SEO Engine</h4></div>
-						<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
-						<div class="icon"><img src="images/seo.png" class="icon" /></div>
-					  	<img src="images/waves.png" class="waves" alt="waves" />
+		        <!-- Add after every 2rd item-tile -->
+	      		<div class="clearfix  visible-sm-block"></div>
+				<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
+					<div class="container-services wow fadeInDown" data-wow-delay="1.5s">
+						<div class="section-div-even">
+							<div><h4>SEO Engine</h4></div>
+							<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
+							<div class="icon"><img src="images/seo.png" class="icon" /></div>
+						  	<img src="images/waves.png" class="waves" alt="waves" />
+						</div>
 					</div>
 				</div>
-			</div>
-			<!-- Add after every 3rd item-tile -->
-      		<div class="clearfix  visible-lg-block visible-md-block"></div>
-			<div class="col-md-4 col-sm-6 col-xs-12">
-				<div class="container-services">
-					<div class="section-div-odd">
-						<div><h4>Autonomous</h4></div>
-						<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
-						<div class="icon"><img src="images/wordpress.png" class="icon" /></div>
-					  	<img src="images/waves.png" class="waves" alt="waves" />	
+				<!-- Add after every 3rd item-tile -->
+	      		<div class="clearfix  visible-lg-block visible-md-block"></div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="container-services wow fadeInDown" data-wow-delay="2s" data-wow-offset="-200">
+						<div class="section-div-odd">
+							<div><h4>Autonomous</h4></div>
+							<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
+							<div class="icon"><img src="images/wordpress.png" class="icon" /></div>
+						  	<img src="images/waves.png" class="waves" alt="waves" />	
+						</div>
 					</div>
 				</div>
-			</div>
-	        <!-- Add after every 2rd item-tile -->
-      		<div class="clearfix  visible-sm-block"></div>
-			<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
-				<div class="container-services">
-					<div class="section-div-even">
-						<div><h4>Support</h4></div>
-						<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
-						<div class="icon"><img src="images/support_1.png" class="icon" /></div>
-					  	<img src="images/waves.png" class="waves" alt="waves" />	
+		        <!-- Add after every 2rd item-tile -->
+	      		<div class="clearfix  visible-sm-block"></div>
+				<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
+					<div class="container-services wow fadeInDown" data-wow-delay="2.5s" data-wow-offset="-200">
+						<div class="section-div-even">
+							<div><h4>Support</h4></div>
+							<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
+							<div class="icon"><img src="images/support_1.png" class="icon" /></div>
+						  	<img src="images/waves.png" class="waves" alt="waves" />	
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
-				<div class="container-services">
-					<div class="section-div-odd">
-						<div><h4>Digital Marketing</h4></div>
-						<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
-						<div class="icon"><img src="images/marketing.png" class="icon" /></div>
-					  	<img src="images/waves.png" class="waves" alt="waves"/>
+				<div class="col-md-4 col-sm-6 col-xs-12 col-xxs-12">
+					<div class="container-services wow fadeInDown" data-wow-delay="3s" data-wow-offset="-200">
+						<div class="section-div-odd">
+							<div><h4>Digital Marketing</h4></div>
+							<p class="item-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus. Mauris dignissim elit diam, ut molestie lectus ullamcorper a. Ut sodales sagittis leo quis ornare. Fusce finibus odio laoreet neque lacinia, id rhoncus purus consectetur. Praesent laoreet urna ac elit ultrices, sed scelerisque nisi facilisis.</p>
+							<div class="icon"><img src="images/marketing.png" class="icon" /></div>
+						  	<img src="images/waves.png" class="waves" alt="waves"/>
+						</div>
 					</div>
 				</div>
-			</div>
-			<!-- Add after every 3rd item-tile -->
-      		<div class="clearfix  visible-lg-block visible-md-block"></div>
+				<!-- Add after every 3rd item-tile -->
+	      		<div class="clearfix  visible-lg-block visible-md-block"></div>
       		</div>
 		</section> 
 
-		<section class="row myworks">
-			<div class="container">
-				<h3 id="page-title" class="text-center">My Works</h3>
+		<section id="" class="container myworks">
+			<div class="row">
+				<h3 id="my-works" class="text-center">My Works</h3>
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="container-works owl-carousel owl-theme">
 						<div class="section-works item">
@@ -179,47 +182,49 @@
 			</div>
 		</section>
 
-		<section class="row work-with-me" >
+		<section id="" class="container-fluid work-with-me" >
 			<div class="container">
-				<h3 id="page-title" class="text-center">Why Work with Me?</h3>
-				<div class="col-md-4 col-sm-12 col-xs-12">
-					<div class="container-why text-center">
-						<img src="images/speed.png"/>
-						<span>Speed</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
+				<div class="row">
+					<h3 id="with-me" class="text-center">Why Work with Me?</h3>
+					<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="container-why text-center">
+							<img src="images/speed.png"/>
+							<span>Speed</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12">	
-					<div class="container-why text-center">
-						<img src="images/support.png"/>
-						<span>Support</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
+					<div class="col-md-4 col-sm-12 col-xs-12">	
+						<div class="container-why text-center">
+							<img src="images/support.png"/>
+							<span>Support</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12">	
-					<div class="container-why text-center">
-						<img src="images/mobile-icon.png" />
-						<span>Mobile Priority</span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
+					<div class="col-md-4 col-sm-12 col-xs-12">	
+						<div class="container-why text-center">
+							<img src="images/mobile-icon.png" />
+							<span>Mobile Priority</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="row">
-			<div class="container">
+		<section class="container">
+			<div class="row">
 				<div class="text-center wordpress">
 					<h3 id="wordpress-title">Wordpress. The Best</h3>
 					<span>Wordpress is the best platform to build a website.</span>
 				</div>
 				<div id="container-wordpress" class="vertical-align">
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<div id="wordpress-img" align="center">
+						<div id="wordpress-img" align="center" class="wow bounceInLeft" data-wow-duration="3s">
 							<img src="images/wordpress2.png" alt="wordpress" class="img-responsive" />
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<div class="wordpress-details">
+						<div class="wordpress-details wow bounceInRight" data-wow-duration="3s">
 							<ul>
 								<li>100% Personalization with Wordpress.</li>
 								<li>Add aditional features to your site.</li>
@@ -233,8 +238,8 @@
 			</div>
 		</section>
 
-		<section class="row">
-			<div class="container">
+		<section class="container">
+			<div class="row">
 				<h3 id="hosting-title" class="text-center">Hosting. The most important!</h3>
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<div class="container-hosting">
@@ -306,90 +311,118 @@
 			</div>
 		</section>	
 
-		<section class="row section-row">
-			<div class="container blog">
-				<h3 class="text-center">Blog</h3>
-				<div class="col-md-6 col-sm-6 col-xs-12 ">
-					<div class="blog-single">
-						<div class="blog-img">
-							<div class="img-blog-div">
-								<img src="images/blog1.jpg"class="img-responsive visible-xs"/>
-							</div>
-							<div class="blog-box-content">
-								<h4>No Alcanza con tener una página web</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
-								<a href="">Read More</a>
+		<section id="" class="container-fluid section-blog">
+			<div class="row blog">
+				<div class="container">
+					<h3 id="blog-section" class="text-center">Blog</h3>
+					<div class="col-md-6 col-sm-6 col-xs-12 ">
+						<div class="blog-single">
+							<div class="blog-img">
+								<div class="img-blog-div">
+									<img src="images/blog1.jpg"class="img-responsive visible-xs"/>
+								</div>
+								<div class="blog-box-content">
+									<h4>No Alcanza con tener una página web</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
+									<a href="">Read More</a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="blog-single">
-						<div class="blog-img">
-							<div class="img-blog-div-2">
-								<img src="images/blog2.jpg" class="img-responsive visible-xs"/>
-							</div>
-							<div class="blog-box-content">
-								<h4>Que es el Remarketing y Como Utilizarlo?</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
-								<a href="">Read More</a>
-							</div>
-						</div>	
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="blog-single">
+							<div class="blog-img">
+								<div class="img-blog-div-2">
+									<img src="images/blog2.jpg" class="img-responsive visible-xs"/>
+								</div>
+								<div class="blog-box-content">
+									<h4>Que es el Remarketing y Como Utilizarlo?</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend magna quis leo sagittis, in porttitor sapien dapibus. Nam at congue diam. Sed quis mollis risus. Integer finibus feugiat enim lacinia faucibus.</p>
+									<a href="">Read More</a>
+								</div>
+							</div>	
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="row cta text-center">
-			<div class="container">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				
-					<h3 id=cta-title class="text-center">Don't wait for your website!</h3>
-					<a href="">Let's Chat</a>
-				
-			</div>
-			</div>
-		</section>
-
-		<section class="container contact">
-			<h3 class="text-center">Contact</h3>
+		<section class="container-fluid cta text-center">
 			<div class="row">
-				<form action="form.php" class="form" method="POST" enctype="multipart/form-data">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<h3 id=cta-title class="text-center">Don't wait for your website!</h3>
+						<a href="">Let's Chat</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="" class="container contact">
+			<?php
+				if(@$_GET['i']=='ok') {
+			?>
+				<h3 id="message-title" class="text-center">Request has been sent properly. We will contact you.</h3>
+			<?php
+			} else {
+			?>
+
+			<h3 id="contact-section" class="text-center">Contact</h3>
+			<div class="row">
+				<form action="php/form.php" class="form" method="POST" enctype="multipart/form-data">
 					<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12" >
-						<input placeholder="Name" type="text" name="name" value="">
+						<input id="cName" placeholder="Name" type="text" name="name" value="">
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12" >
-						<input placeholder="Email" type="email" name="email" value="">
+						<input id="cEmail" placeholder="Email" type="email" name="email" value="">
 					</div>
 					<div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12" >
-						<textarea name="messaje" placeholder="Message"></textarea>
+						<textarea id="cMessage" name="messaje" placeholder="Message"></textarea>
 					</div>
 					<div class="col-md-12 col-sm-12 col-xs-12 text-center" >
 						<div id="message4" class="sucess"><i class="fas fa-check">Message Sent</i></div>
 						<input type="submit" id="bSent" value="Get Quote">
 					</div>
 				</form>
-			</div> 
+			</div>
+			<?php } ?> 
 		</section>
 
-		<section class="contacto-info container">
-			<div class="mail row ">
+		<section class="contact-info container">
+			<div class="mail row text-center">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-					<img src="images/mail-icon.png" alt="email icon"/>
-					<span>alvarado.mavm@gmail.com</span>
+					<div class="contact-details" >
+						<img src="images/mail-icon.png" alt="email icon"/>
+						<span>alvarado.mavm@gmail.com</span>
+					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6  col-xs-12">		
-					<img src="images/whatsapp-icon.png" alt="whats app icon"/>
-					<span>+52 1 3331912993</span>
+				<div class="col-lg-6 col-md-6 col-sm-6  col-xs-12">	
+					<div class="contact-details" > 
+						<img src="images/whatsapp-icon.png" alt="whats app icon"/>
+						<span>+52 1 3331912993</span>
+					</div>	
 				</div>
 			</div>
 		</section>
-		
 	</main>
+
+	<footer>
+		<section id="socialmedia container">
+			<div class="row text-center links">		
+					<a href="https://www.facebook.com/miguel.alvarado.96995238"><img src="images/facebook.png"></a>
+					<a href="https://github.com/alvarmig"><img src="images/github.png"></a>
+					<a href="https://www.linkedin.com/in/miguel-alvarado-mavm/"><img src="images/linkedin.png"></a>
+					<a href=""><img src="images/medium.png"></a>		
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<p>© 2019 Miguel Alvarado | Web Development. All Rights Reserved.</p>
+				</div>
+			</div>
+			
+		</section>
+	</footer>
 
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/script.js"></script>
   
 </body>

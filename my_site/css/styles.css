@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 body {
 	background: #fff;
 	font-family: 'Poppins', sans-serif;
@@ -6,6 +9,28 @@ header {
 	height: 100vh;
 	background: linear-gradient(rgba(84,93,220,.9),rgba(96,171,245,.9)), url('../images/background-home.jpg') left no-repeat;
 	background-size: cover;
+}
+#navbarToggle {
+	margin-top: 0;
+}
+#header-nav{
+	width: 100%;
+	transition: .3s;
+	z-index: 99999999999;
+}
+#nav-list, #collapsable-nav {
+	z-index: 99999999999;
+}
+#nav-list li a {
+	text-decoration: none;
+	color: #fff;
+	padding-top: 0;
+	padding-right: 0;
+}
+.shadow {
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .navbar-default {
 	background-color: transparent;
@@ -19,9 +44,11 @@ header {
 	margin-top: 10px; 
 }
 #title-logo {
+	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 20px;
 	font-family: 'Righteous', cursive;
+	color: #fff;
 }
 div.container-title {
 	color: #fff;
@@ -49,7 +76,7 @@ div.container-title {
 }
 nav ul li {
 	margin-top: 4px;
-	margin-right: 15px;
+	margin-right: 0px;
 	font-size: 15px;
 }
 
@@ -75,7 +102,10 @@ nav ul li {
 	text-shadow: 1px 1px 1px #222;
 	box-shadow: 5px 10px 15px #3F0C1F;
 }
-
+#main-container {
+	padding-left: 0;
+	padding-right: 0;
+}
 #main-container h3 {
 	font-size: 55px;
 	font-weight: normal;
@@ -152,11 +182,10 @@ nav ul li {
 /******** END Carousel ******************/
 
 /********** Why Work With Me Section  *************/
-
 .work-with-me {
-	padding-left: 80px;
-	padding-right: 80px;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
+	background: #F9FAFC;
+	padding-bottom: 40px;
 }
 .container-why {
 	margin-left: 10px;
@@ -177,7 +206,7 @@ nav ul li {
 
 /********** Worpress Section  *************/
 .wordpress {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .container-wordpress {
 	margin-top: 20px;
@@ -192,7 +221,6 @@ h3#wordpress-title {
 	margin-bottom: 10px;
 }
 .wordpress-details {
-	padding-left: 50px;
 	list-style-position: inside;
 }
 /********** END Worpress Section  *************/
@@ -216,16 +244,9 @@ h3#hosting-title {
 	margin-bottom: 20px;
 }
 .info-details {
-	text-align: center;
-	width: 64%; 
-	margin-left: auto;
-	margin-right: auto;
+	margin-bottom: 40px;
 }
-.hosting-details {
-	width: 78%;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .hosting-details h4 {
 	font-weight: 600;
 }
@@ -287,10 +308,10 @@ h3#hosting-title {
 	width: 100%;
 	height: 209px;
 }
-.section-row {
+.section-blog {
 	background: #F9FAFC;
+	padding-bottom: 40px;
 }
-
 .blog-box-content {
 	background: #fff;
 	padding: 20px;
@@ -323,9 +344,7 @@ h3#hosting-title {
 	background: #59a7ec;
 	transition: 0.3s;
 }
-.remarketing {
-	height: 276px;
-}
+
 /********** END BLOG Section   *************/
 
 /********** END CTA   *************/
@@ -363,6 +382,13 @@ h3#cta-title  {
 }
 #message4 {
 	display: none;
+	color: #fff;
+	background: #44be75;
+	padding: 15px 50px;
+	margin-bottom: 20px;
+	position: fixed;
+	top: 90%;
+	right: 100px;
 }
 textarea {
 	padding: 18px 0;
@@ -411,11 +437,51 @@ input[type="submit"]:hover {
 .mail img {
 	margin-right: 10px;
 	font-size: 20px;
+	width: 28px;
 }
-.contacto-info {
+.contact #message-title{
+	font-size: 40px;
+}
 
+.contact-info {
+	margin-bottom: 40px;
 }
 /********** END Contact section  *************/
+
+/********** Footer  *************/
+
+footer {
+	background: #2F2F2F;
+	padding: 40px 0 40px 0;
+	margin-top: 40px;
+}
+
+footer .links {
+	color:	#fff;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+.links p {
+	margin-top: 40px;
+}
+footer img {
+	margin: 0 40px;
+	transform: rotate(0);
+	transition: .4s;
+}
+footer img:hover {
+	margin: 0 40px;
+	transform: rotate(360deg);
+	transition: .4s;
+}
+#whatsapp {
+	position: fixed;
+	top: 89%;
+	right: 2%;	
+}
+/********** END Footer  *************/
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -423,15 +489,9 @@ input[type="submit"]:hover {
 		display: flex;
 	    align-items: center;
 	}
-	.services {
-		margin-left: 80px;
-		margin-right: 80px;
-		padding-left: 100px;
-		padding-right: 100px;
-	}
 }
 		
-}
+
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 	
@@ -447,21 +507,26 @@ input[type="submit"]:hover {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+	div.container-title {
+		margin: 25vh 0 10vh 0;
+	}
 	.hosting-details {
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.services {
-		margin-left: 50px;
-		margin-right: 50px;
-	}
 }
 
 /********** Extra small devices only **********/
 @media (min-width: 480px) and (max-width: 767px) {
+	.title h1 {
+		font-size: 3em;
+	}
+	.title h2 {
+		font-size: 1.5em;
+	}
 	div.container-title {
-		margin: 30vh 0 8vh 0;
+		margin: 25vh 0 10vh 0;
 	}
 	#main-container h3 {
 		font-size: 45px;
@@ -481,6 +546,10 @@ input[type="submit"]:hover {
 	.container-hosting {
 		margin-bottom: 40px;
 	}
+	.info-details {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 	.hosting-details {
 		width: 95%;
 		margin-left: auto;
@@ -490,17 +559,24 @@ input[type="submit"]:hover {
 	.hosting-details p {
 		margin-bottom: 30px;
 	}
-	.services {
-		margin-left: 50px;
-		margin-right: 50px;
+	.contact-details {
+		margin-bottom: 20px;
 	}
-
+	.contact #message-title {
+		font-size: 20px;
+	}
 }
 
 /********** Super extra small devices only iPhone 4 **********/
 @media (min-width: 375px) and (max-width: 479px) {
+	.title h1 {
+		font-size: 2.5em;
+	}
+	.title h2 {
+		font-size: 1.5em;
+	}
 	div.container-title {
-		margin: 18vh 0 8vh 0;
+		margin: 25vh 0 10vh 0;
 	}
 	#main-container h3 {
 		margin-top: 45px;
@@ -512,10 +588,6 @@ input[type="submit"]:hover {
 	.container-services  .item-details {
 		height: 300px;
 	}
-	.services {
-		margin-left: 5px;
-		margin-right: 5px;
-	}
 	.work-with-me {
 		padding-left: 40px;
 		padding-right: 40px;
@@ -525,10 +597,14 @@ input[type="submit"]:hover {
 	}
 	.wordpress-details {
 		font-size: 12px;
-		width: 90%;
+		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: 0;
+		padding-left: 20px;
+	}
+	.info-details {
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 	.container-hosting {
 		margin-bottom: 40px;
@@ -537,6 +613,9 @@ input[type="submit"]:hover {
 		width: 95%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.hosting-details {
+		margin-top: 50px;
 	}
 	.blog-box-content h4 {
 		font-size: 1.2em;
@@ -558,9 +637,49 @@ input[type="submit"]:hover {
 	.col-xxs-12 {
 		width: 100%;
 	}
-
+	.contact-details {
+		margin-bottom: 20px;
+	}
+	.contact #message-title {
+		font-size: 20px;
+	}
+	#whatsapp img {
+		width: 40px;
+	}
 }
 @media (min-width: 320px) and (max-width: 374px) {
+	.title h1 {
+		font-size: 2em;
+	}
+	.title h2 {
+		font-size: 1.5em;
+	}
+	#title-logo {
+		margin-left: 20px;
+	}
+	div.container-title {
+		margin: 20vh 0 10vh 0;
+	}
+	#wordpress-img {
+		margin-bottom: 55px;
+	}
+	.wordpress-details {
+		font-size: 12px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 5px;
+	}
+	.info-details {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.hosting-details {
+		margin-top: 50px;
+	}
+	.about-text {
+		padding: 20px;
+	}
 	.blog-single {
 		width: 100%;
 	}
@@ -581,9 +700,31 @@ input[type="submit"]:hover {
 	.col-xxs-12 {
 		width: 100%;
 	}
+	.contact-details {
+		margin-bottom: 20px;
+	}
+	#main-container h3 {
+		font-size: 30px;
+		font-weight: normal;
+	}
+	.contact #message-title {
+		font-size: 20px;
+	}
+	#whatsapp img {
+		width: 30px;
+	}
 }
 
 @media (max-width: 319px) {
+	.title h1 {
+		font-size: 2em;
+	}
+	.title h2 {
+		font-size: 1.5em;
+	}
+	div.container-title {
+		margin: 20vh 0 10vh 0;
+	}
 	.blog-single {
 		width: 100%;
 	}
@@ -603,6 +744,12 @@ input[type="submit"]:hover {
 	}
 	.col-xxs-12 {
 		width: 100%;
+	}
+	.contact-details {
+		margin-bottom: 20px;
+	}
+	#main-container h3 {
+	font-size: 20px;
 	}
 
 }
