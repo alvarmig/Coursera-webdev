@@ -1,14 +1,15 @@
 /** https://owlcarousel2.github.io/OwlCarousel2/ **/
 
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
+  
   new WOW({
       boxClass:     'wow',      // default
       animateClass: 'animated', // default
       offset:       0,          // default
-      mobile:       false,       // default
+      mobile:       true,       // default
       live:         true        // default
   }).init();
-  
+
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
   $("#navbarToggle").blur(function (event) {
     var screenWidth = window.innerWidth;
@@ -102,6 +103,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
         $("#header-nav").removeClass("shadow");
         $("nav ul li a").css({"color":"#fff"});
         $("#title-logo").css({"color":"#fff"});
+        $("nav ul li").removeClass("active");
       }
     } else if ($(window).width() < 768) {
         if(scroll > 100) {
@@ -127,9 +129,20 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
           $("#title-logo").css({"color":"#fff"});
           $("#collapsable-nav").css({"background":"transparent"});
           $("#collapsable-nav").removeClass("shadow");
+          $("nav ul li").removeClass("active");
       }
     } 
   });
+});
+
+/* One page navigation scrolling */
+$('#nav-list').onePageNav({
+  currentClass: 'active',
+  changeHash: false,
+  scrollSpeed: 750,
+  scrollThreshold: 0.5,
+  filter: '',
+  easing: 'swing'
 });
 
 
@@ -150,7 +163,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
     }
   };
 
-  switchMenuToActive();
+  //switchMenuToActive();
   global.$dc = dc;
 
 })(window);
