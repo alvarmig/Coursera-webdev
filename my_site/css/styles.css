@@ -492,7 +492,7 @@ footer img:hover {
 }
 #whatsapp {
 	position: fixed;
-	top: 92%;
+	top: 90%;
 	right: 2%;	
 	z-index: 999999999;
 }
