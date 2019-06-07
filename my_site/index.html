@@ -314,7 +314,7 @@
 
 		<section id="" class="container-fluid section-blog">
 			<div class="row blog">
-				<div class="container wow slideInLeft" data-wow-duration="0.8s" data-wow-delay="0.3s"	>
+				<div class="container wow bounceInRight" data-wow-duration="0.8s" data-wow-delay="0.3s"	>
 					<h3 id="blog-section" class="text-center">Blog</h3>
 					<div class="col-md-6 col-sm-6 col-xs-12 ">
 						<div class="blog-single">
@@ -357,7 +357,7 @@
 			</div>
 		</section>
 
-		<section id="" class="container contact wow slideInRight" data-wow-duration="0.8s" data-wow-delay="0.2s">
+		<section id="" class="container contact " >
 			<?php
 				if(@$_GET['i']=='ok') {
 			?>
@@ -367,7 +367,7 @@
 			?>
 
 			<h3 id="contact-section" class="text-center">Contact</h3>
-			<div class="row">
+			<div class="row wow bounceInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
 				<form action="php/form.php" class="form" method="POST" enctype="multipart/form-data">
 					<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12" >
 						<input id="cName" placeholder="Name" type="text" name="name" value="">
